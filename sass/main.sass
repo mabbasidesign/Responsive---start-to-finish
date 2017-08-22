@@ -1,4 +1,15 @@
-body
-  background-color: #451274;
-  padding: 50px;
-  color: #884563;
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900')
+
+// 1. Config files and helpers
+@import abstracts/colors
+@import abstracts/type
+
+// 2. Vendor
+@import vendor/normalize.scss
+// 3. Base styles
+@import base/base
+
+// 4. Layout
+@import layout/grid
+@import layout/header
+@import layout/hero
