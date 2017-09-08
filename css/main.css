@@ -25,7 +25,7 @@ html {
  */
 body {
   margin: 0;
-  background: #16db93; }
+  background: #048ca8; }
 
 /**
  * Add the correct display in IE 9-.
@@ -115,6 +115,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -436,3 +437,7 @@ img {
 
 .main-nav {
   display: none; }
+
+.hero {
+  background: linear-gradient(to right, #048ca8, #16db93);
+    background-color: white; }
